@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/rick-morty-.webp");
+    background-size: contain;
+}
+
+.characters{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.characters_card{
+    background-color: rgba(10, 47, 80, 0.5);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
